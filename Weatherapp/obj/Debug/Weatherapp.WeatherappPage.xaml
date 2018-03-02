@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:local="clr-namespace:Weatherapp" 
+    x:Class="Weatherapp.WeatherappPage">
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness">
+            <On Platform="iOS" Value="20, 40, 20, 20" />
+            <On Platform="Android, WinPhone, Windows" Value="20" />
+        </OnPlatform>
+    </ContentPage.Padding>
+   
+	<Label Text="Welcome to Xamarin Forms!" VerticalOptions="Start" HorizontalOptions="Center" />
+    <ListView x:Name="list_data" HasUnevenRows="true" Margin="0,0,0,0">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding Dt}" TextColor="Purple" Detail="{Binding Main.Temp}" DetailColor="Black"/>
+                    <!--<ImageCell Text="{Binding Topic}" TextColor="Purple" Detail="{Binding Description}" DetailColor="Black" ImageSource="{Binding ImageSource}" />-->
+                    <!--<ViewCell >
+                        <ViewCell.View>
+                            <StackLayout Spacing="5" Orientation="Horizontal" HorizontalOptions="Center" >
+                                <Label Text="{Binding Dt}"  FontSize="20" FontAttributes="Bold" />
+                                    <Label Text="{Binding Main.Temp}" FontSize="20" HorizontalOptions="End" HorizontalTextAlignment="End" />
+                                </StackLayout>
+                        </ViewCell.View>
+                    </ViewCell>-->
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+</ContentPage>

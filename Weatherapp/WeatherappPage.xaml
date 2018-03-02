@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:local="clr-namespace:Weatherapp" 
+    x:Class="Weatherapp.WeatherappPage"
+    x:Name="this">
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness">
+            <On Platform="iOS" Value="20, 40, 20, 20" />
+            <On Platform="Android, WinPhone, Windows" Value="20" />
+        </OnPlatform>
+    </ContentPage.Padding>
+    <ContentPage.BindingContext>
+        <x:Reference Name="this" />
+    </ContentPage.BindingContext>
+        <ActivityIndicator x:Name="actWebRequest"
+            IsVisible="{ Binding IsLoading, Mode=TwoWay }"
+            IsRunning="{ Binding IsLoading, Mode=TwoWay }"
+            AbsoluteLayout.LayoutBounds="0.5, 0.5, 100, 100"
+            AbsoluteLayout.LayoutFlags="PositionProportional" />
+        <StackLayout>
+            <Label Text="Weather App" VerticalOptions="Start" HorizontalOptions="Start"></Label>
+        </StackLayout>
+        
+        <StackLayout Margin="0,10,0,0">
+            <Label x:Name="current_date" VerticalOptions="Start" HorizontalOptions="Center" />
+            <Label Text="{Binding TempMax, StringFormat='max {0:N}&#186;C'}" VerticalOptions="Start" HorizontalOptions="Center" />
+            <Label Text="{Binding TempMin, StringFormat='min {0:N}&#186;C'}" VerticalOptions="Start" HorizontalOptions="Center" />
+            <Label Text="{Binding Name}" VerticalOptions="Start" HorizontalOptions="Center"/>
+        </StackLayout>
+</ContentPage>

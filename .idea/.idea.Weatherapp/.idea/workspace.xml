@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="28bc8e29-3f8a-48e4-aeae-e28b13eb50cd" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="WeatherModel.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Weatherapp/Models/WeatherModel.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+              <folding>
+                <marker date="1519994155000" expanded="false" signature="6:327" ph="..." />
+                <marker date="1519994155000" expanded="true" signature="356:4964" ph="{...}" />
+                <marker date="1519994155000" expanded="true" signature="402:2174" ph="{...}" />
+                <marker date="1519994155000" expanded="true" signature="460:2168" ph="{...}" />
+                <marker date="1519994155000" expanded="true" signature="629:1321" ph="{...}" />
+                <marker date="1519994155000" expanded="true" signature="808:1114" ph="{...}" />
+                <marker date="1519994155000" expanded="true" signature="1174:1307" ph="{...}" />
+                <marker date="1519994155000" expanded="true" signature="1353:1437" ph="{...}" />
+                <marker date="1519994155000" expanded="true" signature="1668:2015" ph="{...}" />
+                <marker date="1519994155000" expanded="true" signature="1724:1841" ph="{...}" />
+                <marker date="1519994155000" expanded="true" signature="1862:2001" ph="{...}" />
+                <marker date="1519994155000" expanded="true" signature="2048:2132" ph="{...}" />
+                <marker date="1519994155000" expanded="true" signature="2212:3015" ph="{...}" />
+                <marker date="1519994155000" expanded="true" signature="3048:3128" ph="{...}" />
+                <marker date="1519994155000" expanded="true" signature="3160:3313" ph="{...}" />
+                <marker date="1519994155000" expanded="true" signature="3344:3914" ph="{...}" />
+                <marker date="1519994155000" expanded="true" signature="3944:4265" ph="{...}" />
+                <marker date="1519994155000" expanded="true" signature="4299:4610" ph="{...}" />
+                <marker date="1519994155000" expanded="true" signature="4641:4796" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WeatherappPage.xaml.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Weatherapp/WeatherappPage.xaml.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="44" column="30" lean-forward="false" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
+              <folding>
+                <marker date="1519993890000" expanded="true" signature="6:150" ph="..." />
+                <marker date="1519993890000" expanded="true" signature="172:1395" ph="{...}" />
+                <marker date="1519993890000" expanded="true" signature="228:1393" ph="{...}" />
+                <marker date="1519993890000" expanded="true" signature="306:445" ph="{...}" />
+                <marker date="1519993890000" expanded="true" signature="371:435" ph="{...}" />
+                <marker date="1519993890000" expanded="true" signature="486:806" ph="{...}" />
+                <marker date="1519993890000" expanded="true" signature="846:1387" ph="{...}" />
+                <marker date="1519993890000" expanded="true" signature="1152:1376" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.xaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Weatherapp/App.xaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="137" lean-forward="false" selection-start-line="1" selection-start-column="134" selection-end-line="1" selection-end-column="137" />
+              <folding>
+                <marker date="1519569225000" expanded="true" signature="39:287" ph="&lt;&lt;Application.Resources&gt;&#10;&#9;&#9;&lt;!-- Application resource dictionary --&gt;&#10;&#9;&lt;/Application.Resources&gt;.../&gt;" />
+                <marker date="1519569225000" expanded="true" signature="180:272" ph="&lt;.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WeatherappPage.xaml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Weatherapp/WeatherappPage.xaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="37" lean-forward="false" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+              <folding>
+                <marker date="1519995062000" expanded="true" signature="39:1587" ph="&lt;&lt;ContentPage.Padding&gt;&#10;        &lt;OnPlatform x:TypeArguments=&quot;Thickness&quot;&gt;&#10;            &lt;On Platform=&quot;iOS&quot; Value=&quot;20, 40, 20, 20&quot; /&gt;&#10;            &lt;On Platform=&quot;Android, WinPhone, Windows&quot; Value=&quot;20&quot; /&gt;&#10;        &lt;/OnPlatform&gt;&#10;    &lt;/ContentPage.Padding&gt; &lt;ContentPage.BindingContext&gt;&#10;        &lt;x:Reference Name=&quot;this&quot; /&gt;&#10;    &lt;/ContentPage.BindingContext&gt; &lt;ActivityIndicator x:Name=&quot;actWebRequest&quot;&#10;            IsVisible=&quot;{ Binding IsLoading, Mode=TwoWay }&quot;&#10;            IsRunning=&quot;{ Binding IsLoading, Mode=TwoWay }&quot;&#10;            AbsoluteLayout.LayoutBounds=&quot;0.5, 0.5, 100, 100&quot;&#10;            AbsoluteLayout.LayoutFlags=&quot;PositionProportional&quot; /&gt; &lt;StackLayout&gt;&#10;            &lt;Label Text=&quot;Weather App&quot; VerticalOptions=&quot;Start&quot; HorizontalOptions=&quot;Start&quot;&gt;&lt;/Label&gt;&#10;        &lt;/StackLayout&gt; &lt;StackLayout Margin=&quot;0,10,0,0&quot;&gt;&#10;            &lt;Label x:Name=&quot;current_date&quot; VerticalOptions=&quot;Start&quot; HorizontalOptions=&quot;Center&quot; /&gt;&#10;            &lt;Label Text=&quot;{Binding TempMax, StringFormat='max {0:N}&amp;##186;C'}&quot; VerticalOptions=&quot;Start&quot; HorizontalOptions=&quot;Center&quot; /&gt;&#10;            &lt;Label Text=&quot;{Binding TempMin, StringFormat='min {0:N}&amp;##186;C'}&quot; VerticalOptions=&quot;Start&quot; HorizontalOptions=&quot;Center&quot; /&gt;&#10;            &lt;Label Text=&quot;{Binding Name}&quot; VerticalOptions=&quot;Start&quot; HorizontalOptions=&quot;Center&quot;/&gt;&#10;        &lt;/StackLayout&gt;.../&gt;" />
+                <marker date="1519995062000" expanded="true" signature="266:510" ph="&lt;&lt;OnPlatform x:TypeArguments=&quot;Thickness&quot;&gt;&#10;            &lt;On Platform=&quot;iOS&quot; Value=&quot;20, 40, 20, 20&quot; /&gt;&#10;            &lt;On Platform=&quot;Android, WinPhone, Windows&quot; Value=&quot;20&quot; /&gt;&#10;        &lt;/OnPlatform&gt;.../&gt;" />
+                <marker date="1519995062000" expanded="true" signature="296:483" ph="&lt;&lt;On Platform=&quot;iOS&quot; Value=&quot;20, 40, 20, 20&quot; /&gt; &lt;On Platform=&quot;Android, WinPhone, Windows&quot; Value=&quot;20&quot; /&gt;.../&gt;" />
+                <marker date="1519995062000" expanded="true" signature="515:613" ph="&lt;&lt;x:Reference Name=&quot;this&quot; /&gt;.../&gt;" />
+                <marker date="1519995062000" expanded="true" signature="622:907" ph="&lt;.../&gt;" />
+                <marker date="1519995062000" expanded="true" signature="916:1049" ph="&lt;&lt;Label Text=&quot;Weather App&quot; VerticalOptions=&quot;Start&quot; HorizontalOptions=&quot;Start&quot;&gt;&lt;/Label&gt;.../&gt;" />
+                <marker date="1519995062000" expanded="true" signature="1067:1572" ph="&lt;&lt;Label x:Name=&quot;current_date&quot; VerticalOptions=&quot;Start&quot; HorizontalOptions=&quot;Center&quot; /&gt; &lt;Label Text=&quot;{Binding TempMax, StringFormat='max {0:N}&amp;##186;C'}&quot; VerticalOptions=&quot;Start&quot; HorizontalOptions=&quot;Center&quot; /&gt; &lt;Label Text=&quot;{Binding TempMin, StringFormat='min {0:N}&amp;##186;C'}&quot; VerticalOptions=&quot;Start&quot; HorizontalOptions=&quot;Center&quot; /&gt; &lt;Label Text=&quot;{Binding Name}&quot; VerticalOptions=&quot;Start&quot; HorizontalOptions=&quot;Center&quot;/&gt;.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Xaml" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>frame</find>
+    </findStrings>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Droid/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/iOS/Main.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/iOS/AppDelegate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Weatherapp/App.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Weatherapp/App.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Weatherapp/WeatherappPage.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Droid/MainActivity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Droid/MainApplication.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Weatherapp/Models/WeatherModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Weatherapp/WeatherappPage.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Weatherapp/Feature/MainPage.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Weatherapp/Feature/MainPage.xaml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Weatherapp/Feature/MainPage.xaml.cs" />
+        <option value="$PROJECT_DIR$/Droid/Properties/AssemblyInfo.cs" />
+        <option value="$PROJECT_DIR$/Droid/Main.axml" />
+        <option value="$PROJECT_DIR$/Droid/Location/GetLocation.cs" />
+        <option value="$PROJECT_DIR$/Weatherapp/Location/GetLocation.cs" />
+        <option value="$PROJECT_DIR$/iOS/Info.plist" />
+        <option value="$PROJECT_DIR$/Droid/MainActivity.cs" />
+        <option value="$PROJECT_DIR$/Droid/MainApplication.cs" />
+        <option value="$PROJECT_DIR$/Weatherapp/LoadingOverlay.cs" />
+        <option value="$PROJECT_DIR$/iOS/LoadingOverlay.cs" />
+        <option value="$PROJECT_DIR$/Weatherapp/Controls/LoadingSpinner.xam.cs" />
+        <option value="$PROJECT_DIR$/Weatherapp/Controls/LoadingSpinnerDialog.xaml" />
+        <option value="$PROJECT_DIR$/Weatherapp/Controls/LoadingSpinnerDialog.xaml.cs" />
+        <option value="$PROJECT_DIR$/Weatherapp/Controls/LoadingSpinner.xaml.cs" />
+        <option value="$PROJECT_DIR$/Weatherapp/Controls/LoadingSpinner.xaml" />
+        <option value="$PROJECT_DIR$/Weatherapp/ViewModel/BaseViewModel.cs" />
+        <option value="$PROJECT_DIR$/Weatherapp/WeatherappPage.xaml.cs" />
+        <option value="$PROJECT_DIR$/Weatherapp/Models/WeatherModel.cs" />
+        <option value="$PROJECT_DIR$/Weatherapp/WeatherappPage.xaml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1440" />
+    <option name="y" value="22" />
+    <option name="width" value="1920" />
+    <option name="height" value="1054" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Weatherapp (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Weatherapp (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Weatherapp" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Weatherapp (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Weatherapp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="App.xaml" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Weatherapp (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Weatherapp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="WeatherappPage.xaml" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Xamarin.Android.Android Default">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+    </configuration>
+    <configuration name="Android Default" type="XamarinAndroidProject" factoryName="Xamarin.Android">
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Droid/Weatherapp.Droid.csproj" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="DEPLOY_BEHAVIOUR_NAME" value="Default" />
+      <option name="DEPLOY_TARGET_BEHAVIOUR_NAME" value="ConnectedDevice" />
+      <option name="DEFAULT_DEVICE_TO_RUN" value="samsung-sm_g800f-3204e27217323135" />
+      <option name="DEFAULT_EMULATOR_TO_RUN" value="Nexus_6_API_25" />
+    </configuration>
+    <configuration name="iOS Default" type="XamarinIOSProject" factoryName="Xamarin.iOS">
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/iOS/Weatherapp.iOS.csproj" />
+      <option name="DEFAULT_IPHONE_DEVICE" value="Akani's iPhone" />
+      <option name="DEFAULT_IPHONE_SIMULATOR" value="iPhone 7 iOS 10.3" />
+      <option name="DEPLOY_TARGET_BEHAVIOUR_NAME" value="ConnectedDevice" />
+      <envs />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue=".NET Project.Default" />
+      <item index="1" class="java.lang.String" itemvalue="Xamarin.Android.Android Default" />
+      <item index="2" class="java.lang.String" itemvalue="Xamarin.iOS.iOS Default" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="28bc8e29-3f8a-48e4-aeae-e28b13eb50cd" name="Default" comment="" />
+      <created>1519820362573</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1519820362573</updated>
+      <workItem from="1519820365417" duration="22877000" />
+      <workItem from="1519978332720" duration="11602000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="34479000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1440" y="22" width="1920" height="1054" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32586557" sideWeight="0.5151042" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31059062" sideWeight="0.47916666" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892057" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18229167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32790223" sideWeight="0.4828125" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32586557" sideWeight="0.48489583" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939634" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="36" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Weatherapp/WeatherappPage.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" column="21" lean-forward="false" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+          <folding>
+            <marker date="1519993890000" expanded="true" signature="6:150" ph="..." />
+            <marker date="1519993890000" expanded="true" signature="172:1395" ph="{...}" />
+            <marker date="1519993890000" expanded="true" signature="228:1393" ph="{...}" />
+            <marker date="1519993890000" expanded="true" signature="306:445" ph="{...}" />
+            <marker date="1519993890000" expanded="true" signature="371:435" ph="{...}" />
+            <marker date="1519993890000" expanded="true" signature="486:806" ph="{...}" />
+            <marker date="1519993890000" expanded="true" signature="846:1387" ph="{...}" />
+            <marker date="1519993890000" expanded="true" signature="1152:1376" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOS/Info.plist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="47" lean-forward="false" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Weatherapp/WeatherappPage.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="4" selection-end-column="39" />
+          <folding>
+            <marker date="1519995062000" expanded="true" signature="39:1587" ph="&lt;&lt;ContentPage.Padding&gt;&#10;        &lt;OnPlatform x:TypeArguments=&quot;Thickness&quot;&gt;&#10;            &lt;On Platform=&quot;iOS&quot; Value=&quot;20, 40, 20, 20&quot; /&gt;&#10;            &lt;On Platform=&quot;Android, WinPhone, Windows&quot; Value=&quot;20&quot; /&gt;&#10;        &lt;/OnPlatform&gt;&#10;    &lt;/ContentPage.Padding&gt; &lt;ContentPage.BindingContext&gt;&#10;        &lt;x:Reference Name=&quot;this&quot; /&gt;&#10;    &lt;/ContentPage.BindingContext&gt; &lt;ActivityIndicator x:Name=&quot;actWebRequest&quot;&#10;            IsVisible=&quot;{ Binding IsLoading, Mode=TwoWay }&quot;&#10;            IsRunning=&quot;{ Binding IsLoading, Mode=TwoWay }&quot;&#10;            AbsoluteLayout.LayoutBounds=&quot;0.5, 0.5, 100, 100&quot;&#10;            AbsoluteLayout.LayoutFlags=&quot;PositionProportional&quot; /&gt; &lt;StackLayout&gt;&#10;            &lt;Label Text=&quot;Weather App&quot; VerticalOptions=&quot;Start&quot; HorizontalOptions=&quot;Start&quot;&gt;&lt;/Label&gt;&#10;        &lt;/StackLayout&gt; &lt;StackLayout Margin=&quot;0,10,0,0&quot;&gt;&#10;            &lt;Label x:Name=&quot;current_date&quot; VerticalOptions=&quot;Start&quot; HorizontalOptions=&quot;Center&quot; /&gt;&#10;            &lt;Label Text=&quot;{Binding TempMax, StringFormat='max {0:N}&amp;##186;C'}&quot; VerticalOptions=&quot;Start&quot; HorizontalOptions=&quot;Center&quot; /&gt;&#10;            &lt;Label Text=&quot;{Binding TempMin, StringFormat='min {0:N}&amp;##186;C'}&quot; VerticalOptions=&quot;Start&quot; HorizontalOptions=&quot;Center&quot; /&gt;&#10;            &lt;Label Text=&quot;{Binding Name}&quot; VerticalOptions=&quot;Start&quot; HorizontalOptions=&quot;Center&quot;/&gt;&#10;        &lt;/StackLayout&gt;.../&gt;" />
+            <marker date="1519995062000" expanded="true" signature="266:510" ph="&lt;&lt;OnPlatform x:TypeArguments=&quot;Thickness&quot;&gt;&#10;            &lt;On Platform=&quot;iOS&quot; Value=&quot;20, 40, 20, 20&quot; /&gt;&#10;            &lt;On Platform=&quot;Android, WinPhone, Windows&quot; Value=&quot;20&quot; /&gt;&#10;        &lt;/OnPlatform&gt;.../&gt;" />
+            <marker date="1519995062000" expanded="true" signature="296:483" ph="&lt;&lt;On Platform=&quot;iOS&quot; Value=&quot;20, 40, 20, 20&quot; /&gt; &lt;On Platform=&quot;Android, WinPhone, Windows&quot; Value=&quot;20&quot; /&gt;.../&gt;" />
+            <marker date="1519995062000" expanded="true" signature="515:613" ph="&lt;&lt;x:Reference Name=&quot;this&quot; /&gt;.../&gt;" />
+            <marker date="1519995062000" expanded="true" signature="622:907" ph="&lt;.../&gt;" />
+            <marker date="1519995062000" expanded="true" signature="916:1049" ph="&lt;&lt;Label Text=&quot;Weather App&quot; VerticalOptions=&quot;Start&quot; HorizontalOptions=&quot;Start&quot;&gt;&lt;/Label&gt;.../&gt;" />
+            <marker date="1519995062000" expanded="true" signature="1067:1572" ph="&lt;&lt;Label x:Name=&quot;current_date&quot; VerticalOptions=&quot;Start&quot; HorizontalOptions=&quot;Center&quot; /&gt; &lt;Label Text=&quot;{Binding TempMax, StringFormat='max {0:N}&amp;##186;C'}&quot; VerticalOptions=&quot;Start&quot; HorizontalOptions=&quot;Center&quot; /&gt; &lt;Label Text=&quot;{Binding TempMin, StringFormat='min {0:N}&amp;##186;C'}&quot; VerticalOptions=&quot;Start&quot; HorizontalOptions=&quot;Center&quot; /&gt; &lt;Label Text=&quot;{Binding Name}&quot; VerticalOptions=&quot;Start&quot; HorizontalOptions=&quot;Center&quot;/&gt;.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Weatherapp/Controls/LoadingSpinnerDialog.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Weatherapp/App.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="137" lean-forward="false" selection-start-line="1" selection-start-column="134" selection-end-line="1" selection-end-column="137" />
+          <folding>
+            <marker date="1519569225000" expanded="true" signature="39:287" ph="&lt;&lt;Application.Resources&gt;&#10;&#9;&#9;&lt;!-- Application resource dictionary --&gt;&#10;&#9;&lt;/Application.Resources&gt;.../&gt;" />
+            <marker date="1519569225000" expanded="true" signature="180:272" ph="&lt;.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Weatherapp/Controls/LoadingSpinnerDialog.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Weatherapp/App.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="31" />
+          <folding>
+            <marker date="1519569226000" expanded="true" signature="42:543" ph="{...}" />
+            <marker date="1519569226000" expanded="true" signature="87:541" ph="{...}" />
+            <marker date="1519569226000" expanded="true" signature="114:215" ph="{...}" />
+            <marker date="1519569226000" expanded="true" signature="258:321" ph="{...}" />
+            <marker date="1519569226000" expanded="true" signature="364:427" ph="{...}" />
+            <marker date="1519569226000" expanded="true" signature="471:535" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Droid/MainApplication.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+          <folding>
+            <marker date="1519973891000" expanded="false" signature="6:104" ph="..." />
+            <marker date="1519973891000" expanded="true" signature="306:1625" ph="{...}" />
+            <marker date="1519973891000" expanded="true" signature="419:439" ph="{...}" />
+            <marker date="1519973891000" expanded="true" signature="480:680" ph="{...}" />
+            <marker date="1519973891000" expanded="true" signature="724:832" ph="{...}" />
+            <marker date="1519973891000" expanded="true" signature="917:999" ph="{...}" />
+            <marker date="1519973891000" expanded="true" signature="1059:1079" ph="{...}" />
+            <marker date="1519973891000" expanded="true" signature="1136:1156" ph="{...}" />
+            <marker date="1519973891000" expanded="true" signature="1214:1296" ph="{...}" />
+            <marker date="1519973891000" expanded="true" signature="1381:1401" ph="{...}" />
+            <marker date="1519973891000" expanded="true" signature="1459:1541" ph="{...}" />
+            <marker date="1519973891000" expanded="true" signature="1599:1619" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Weatherapp/Feature/MainPage.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Droid/Main.axml" />
+    <entry file="file://$PROJECT_DIR$/Droid/Location/GetLocation.cs" />
+    <entry file="file://$PROJECT_DIR$/Weatherapp/Location/GetLocation.cs" />
+    <entry file="file://$PROJECT_DIR$/Weatherapp/Feature/MainPage.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Droid/Properties/AssemblyInfo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="30" column="56" lean-forward="false" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOS/AppDelegate.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOS/LaunchScreen.storyboard">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOS/Main.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Weatherapp/obj/Debug/Weatherapp.WeatherappPage.xaml.g.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="44" lean-forward="false" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Droid/Properties/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOS/Info.plist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="47" lean-forward="false" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOS/LoadingOverlay.cs" />
+    <entry file="file://$PROJECT_DIR$/Weatherapp/Controls/LoadingSpinner.xam.cs" />
+    <entry file="file://$PROJECT_DIR$/Weatherapp/Controls/App.xaml" />
+    <entry file="file://$PROJECT_DIR$/Weatherapp/App.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="31" />
+          <folding>
+            <marker date="1519569226000" expanded="true" signature="42:543" ph="{...}" />
+            <marker date="1519569226000" expanded="true" signature="87:541" ph="{...}" />
+            <marker date="1519569226000" expanded="true" signature="114:215" ph="{...}" />
+            <marker date="1519569226000" expanded="true" signature="258:321" ph="{...}" />
+            <marker date="1519569226000" expanded="true" signature="364:427" ph="{...}" />
+            <marker date="1519569226000" expanded="true" signature="471:535" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Droid/MainActivity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <marker date="1519973658000" expanded="true" signature="6:214" ph="..." />
+            <marker date="1519973658000" expanded="true" signature="242:962" ph="{...}" />
+            <marker date="1519973658000" expanded="true" signature="530:960" ph="{...}" />
+            <marker date="1519973658000" expanded="true" signature="592:954" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Droid/MainApplication.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+          <folding>
+            <marker date="1519973891000" expanded="false" signature="6:104" ph="..." />
+            <marker date="1519973891000" expanded="true" signature="306:1625" ph="{...}" />
+            <marker date="1519973891000" expanded="true" signature="419:439" ph="{...}" />
+            <marker date="1519973891000" expanded="true" signature="480:680" ph="{...}" />
+            <marker date="1519973891000" expanded="true" signature="724:832" ph="{...}" />
+            <marker date="1519973891000" expanded="true" signature="917:999" ph="{...}" />
+            <marker date="1519973891000" expanded="true" signature="1059:1079" ph="{...}" />
+            <marker date="1519973891000" expanded="true" signature="1136:1156" ph="{...}" />
+            <marker date="1519973891000" expanded="true" signature="1214:1296" ph="{...}" />
+            <marker date="1519973891000" expanded="true" signature="1381:1401" ph="{...}" />
+            <marker date="1519973891000" expanded="true" signature="1459:1541" ph="{...}" />
+            <marker date="1519973891000" expanded="true" signature="1599:1619" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Weatherapp/Controls/LoadingSpinnerDialog.xaml" />
+    <entry file="file://$PROJECT_DIR$/Weatherapp/Controls/LoadingSpinnerDialog.xaml.cs" />
+    <entry file="file://$PROJECT_DIR$/Weatherapp/Controls/LoadingSpinner.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="51" lean-forward="false" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Weatherapp/Controls/LoadingSpinner.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Weatherapp/ViewModel/BaseViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Droid/Resources/drawable/004-lightning.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Droid/Resources/drawable/005-sun-1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Droid/Resources/drawable/007-rain.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Droid/Resources/drawable/008-rainfall.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Droid/Resources/drawable/003-storm.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Droid/Resources/drawable/006-sun.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Droid/Resources/drawable/001-drop.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Droid/Resources/drawable/002-waves.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Droid/Resources/drawable-hdpi/001-drop.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Droid/Resources/drawable-hdpi/002-waves.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Droid/Resources/drawable-hdpi/003-storm.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Droid/Resources/drawable-hdpi/004-lightning.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Droid/Resources/drawable-hdpi/005-sun-1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Droid/Resources/drawable-hdpi/006-sun.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Droid/Resources/drawable-hdpi/007-rain.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Droid/Resources/drawable-hdpi/008-rainfall.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Weatherapp/App.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="137" lean-forward="false" selection-start-line="1" selection-start-column="134" selection-end-line="1" selection-end-column="137" />
+          <folding>
+            <marker date="1519569225000" expanded="true" signature="39:287" ph="&lt;&lt;Application.Resources&gt;&#10;&#9;&#9;&lt;!-- Application resource dictionary --&gt;&#10;&#9;&lt;/Application.Resources&gt;.../&gt;" />
+            <marker date="1519569225000" expanded="true" signature="180:272" ph="&lt;.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Weatherapp/WeatherappPage.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="30" lean-forward="false" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
+          <folding>
+            <marker date="1519993890000" expanded="true" signature="6:150" ph="..." />
+            <marker date="1519993890000" expanded="true" signature="172:1395" ph="{...}" />
+            <marker date="1519993890000" expanded="true" signature="228:1393" ph="{...}" />
+            <marker date="1519993890000" expanded="true" signature="306:445" ph="{...}" />
+            <marker date="1519993890000" expanded="true" signature="371:435" ph="{...}" />
+            <marker date="1519993890000" expanded="true" signature="486:806" ph="{...}" />
+            <marker date="1519993890000" expanded="true" signature="846:1387" ph="{...}" />
+            <marker date="1519993890000" expanded="true" signature="1152:1376" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Weatherapp/Models/WeatherModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <marker date="1519994155000" expanded="false" signature="6:327" ph="..." />
+            <marker date="1519994155000" expanded="true" signature="356:4964" ph="{...}" />
+            <marker date="1519994155000" expanded="true" signature="402:2174" ph="{...}" />
+            <marker date="1519994155000" expanded="true" signature="460:2168" ph="{...}" />
+            <marker date="1519994155000" expanded="true" signature="629:1321" ph="{...}" />
+            <marker date="1519994155000" expanded="true" signature="808:1114" ph="{...}" />
+            <marker date="1519994155000" expanded="true" signature="1174:1307" ph="{...}" />
+            <marker date="1519994155000" expanded="true" signature="1353:1437" ph="{...}" />
+            <marker date="1519994155000" expanded="true" signature="1668:2015" ph="{...}" />
+            <marker date="1519994155000" expanded="true" signature="1724:1841" ph="{...}" />
+            <marker date="1519994155000" expanded="true" signature="1862:2001" ph="{...}" />
+            <marker date="1519994155000" expanded="true" signature="2048:2132" ph="{...}" />
+            <marker date="1519994155000" expanded="true" signature="2212:3015" ph="{...}" />
+            <marker date="1519994155000" expanded="true" signature="3048:3128" ph="{...}" />
+            <marker date="1519994155000" expanded="true" signature="3160:3313" ph="{...}" />
+            <marker date="1519994155000" expanded="true" signature="3344:3914" ph="{...}" />
+            <marker date="1519994155000" expanded="true" signature="3944:4265" ph="{...}" />
+            <marker date="1519994155000" expanded="true" signature="4299:4610" ph="{...}" />
+            <marker date="1519994155000" expanded="true" signature="4641:4796" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Weatherapp/WeatherappPage.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="37" lean-forward="false" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+          <folding>
+            <marker date="1519995062000" expanded="true" signature="39:1587" ph="&lt;&lt;ContentPage.Padding&gt;&#10;        &lt;OnPlatform x:TypeArguments=&quot;Thickness&quot;&gt;&#10;            &lt;On Platform=&quot;iOS&quot; Value=&quot;20, 40, 20, 20&quot; /&gt;&#10;            &lt;On Platform=&quot;Android, WinPhone, Windows&quot; Value=&quot;20&quot; /&gt;&#10;        &lt;/OnPlatform&gt;&#10;    &lt;/ContentPage.Padding&gt; &lt;ContentPage.BindingContext&gt;&#10;        &lt;x:Reference Name=&quot;this&quot; /&gt;&#10;    &lt;/ContentPage.BindingContext&gt; &lt;ActivityIndicator x:Name=&quot;actWebRequest&quot;&#10;            IsVisible=&quot;{ Binding IsLoading, Mode=TwoWay }&quot;&#10;            IsRunning=&quot;{ Binding IsLoading, Mode=TwoWay }&quot;&#10;            AbsoluteLayout.LayoutBounds=&quot;0.5, 0.5, 100, 100&quot;&#10;            AbsoluteLayout.LayoutFlags=&quot;PositionProportional&quot; /&gt; &lt;StackLayout&gt;&#10;            &lt;Label Text=&quot;Weather App&quot; VerticalOptions=&quot;Start&quot; HorizontalOptions=&quot;Start&quot;&gt;&lt;/Label&gt;&#10;        &lt;/StackLayout&gt; &lt;StackLayout Margin=&quot;0,10,0,0&quot;&gt;&#10;            &lt;Label x:Name=&quot;current_date&quot; VerticalOptions=&quot;Start&quot; HorizontalOptions=&quot;Center&quot; /&gt;&#10;            &lt;Label Text=&quot;{Binding TempMax, StringFormat='max {0:N}&amp;##186;C'}&quot; VerticalOptions=&quot;Start&quot; HorizontalOptions=&quot;Center&quot; /&gt;&#10;            &lt;Label Text=&quot;{Binding TempMin, StringFormat='min {0:N}&amp;##186;C'}&quot; VerticalOptions=&quot;Start&quot; HorizontalOptions=&quot;Center&quot; /&gt;&#10;            &lt;Label Text=&quot;{Binding Name}&quot; VerticalOptions=&quot;Start&quot; HorizontalOptions=&quot;Center&quot;/&gt;&#10;        &lt;/StackLayout&gt;.../&gt;" />
+            <marker date="1519995062000" expanded="true" signature="266:510" ph="&lt;&lt;OnPlatform x:TypeArguments=&quot;Thickness&quot;&gt;&#10;            &lt;On Platform=&quot;iOS&quot; Value=&quot;20, 40, 20, 20&quot; /&gt;&#10;            &lt;On Platform=&quot;Android, WinPhone, Windows&quot; Value=&quot;20&quot; /&gt;&#10;        &lt;/OnPlatform&gt;.../&gt;" />
+            <marker date="1519995062000" expanded="true" signature="296:483" ph="&lt;&lt;On Platform=&quot;iOS&quot; Value=&quot;20, 40, 20, 20&quot; /&gt; &lt;On Platform=&quot;Android, WinPhone, Windows&quot; Value=&quot;20&quot; /&gt;.../&gt;" />
+            <marker date="1519995062000" expanded="true" signature="515:613" ph="&lt;&lt;x:Reference Name=&quot;this&quot; /&gt;.../&gt;" />
+            <marker date="1519995062000" expanded="true" signature="622:907" ph="&lt;.../&gt;" />
+            <marker date="1519995062000" expanded="true" signature="916:1049" ph="&lt;&lt;Label Text=&quot;Weather App&quot; VerticalOptions=&quot;Start&quot; HorizontalOptions=&quot;Start&quot;&gt;&lt;/Label&gt;.../&gt;" />
+            <marker date="1519995062000" expanded="true" signature="1067:1572" ph="&lt;&lt;Label x:Name=&quot;current_date&quot; VerticalOptions=&quot;Start&quot; HorizontalOptions=&quot;Center&quot; /&gt; &lt;Label Text=&quot;{Binding TempMax, StringFormat='max {0:N}&amp;##186;C'}&quot; VerticalOptions=&quot;Start&quot; HorizontalOptions=&quot;Center&quot; /&gt; &lt;Label Text=&quot;{Binding TempMin, StringFormat='min {0:N}&amp;##186;C'}&quot; VerticalOptions=&quot;Start&quot; HorizontalOptions=&quot;Center&quot; /&gt; &lt;Label Text=&quot;{Binding Name}&quot; VerticalOptions=&quot;Start&quot; HorizontalOptions=&quot;Center&quot;/&gt;.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
