@@ -2,39 +2,22 @@
   <MonoDevelop.Ide.ItemProperties.Weatherapp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.45B49F13-8B12-4EAD-BE2D-385A761C7DDE" automaticSigning="False">
     <MonoDevelop.MacDev.AppleDevelopmentTeam />
   </MonoDevelop.Ide.ItemProperties.Weatherapp.iOS>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Weatherapp/Controls/LoadingSpinner.xaml">
-    <Files>
-      <File FileName="Weatherapp/Feature/MainPage.xaml" Line="15" Column="1" NotebookId="1" />
-      <File FileName="Weatherapp/Feature/MainPage.xaml.cs" Line="1" Column="1" NotebookId="1" />
-      <File FileName="iOS/Main.cs" Line="1" Column="1" NotebookId="1" />
-      <File FileName="iOS/Entitlements.plist" NotebookId="1" />
-      <File FileName="iOS/Info.plist" NotebookId="1" />
-      <File FileName="iOS/AppDelegate.cs" Line="1" Column="1" NotebookId="1" />
-      <File FileName="Weatherapp/App.xaml" Line="7" Column="1" NotebookId="1" />
-      <File FileName="Weatherapp/WeatherappPage.xaml" Line="30" Column="1" NotebookId="1" />
-      <File FileName="Weatherapp/packages.config" Line="1" Column="1" NotebookId="1" />
-      <File FileName="Weatherapp/App.xaml.cs" Line="1" Column="1" NotebookId="1" />
-      <File FileName="Droid/MainActivity.cs" Line="1" Column="1" NotebookId="1" />
-      <File FileName="Weatherapp/obj/Debug/Weatherapp.WeatherappPage.xaml.g.cs" Line="1" Column="1" NotebookId="1" />
-      <File FileName="Weatherapp/Controls/LoadingSpinner.xaml" Line="13" Column="30" NotebookId="1" />
-      <File FileName="Weatherapp/Controls/LoadingSpinner.xaml.cs" Line="1" Column="1" NotebookId="1" />
-    </Files>
-    <FloatingWindows>
-      <FloatingWindow WindowId="1" X="90" Y="130" Width="1111" Height="639">
-        <Files>
-          <File FileName="Weatherapp/Models/WeatherModel.cs" Line="62" Column="1" />
-          <File FileName="Weatherapp/WeatherappPage.xaml.cs" Line="1" Column="1" />
-        </Files>
-      </FloatingWindow>
-    </FloatingWindows>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Weatherapp" expanded="True">
             <Node name="Weatherapp" expanded="True">
-              <Node name="Controls" expanded="True">
-                <Node name="LoadingSpinner.xaml" expanded="True" />
+              <Node name="ViewModel" expanded="True" />
+              <Node name="App.xaml" expanded="True" />
+            </Node>
+            <Node name="Weatherapp.Droid" expanded="True">
+              <Node name="Resources" expanded="True">
+                <Node name="drawable" expanded="True" />
               </Node>
+            </Node>
+            <Node name="Weatherapp.iOS" expanded="True">
+              <Node name="LaunchScreen.storyboard" selected="True" />
             </Node>
           </Node>
         </State>
@@ -47,5 +30,5 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Weatherapp.Droid PreferredExecutionTarget="Android.Nexus_6_API_25" />
+  <MonoDevelop.Ide.ItemProperties.Weatherapp.Droid PreferredExecutionTarget="Android.0123456789ABCDEF" />
 </Properties>

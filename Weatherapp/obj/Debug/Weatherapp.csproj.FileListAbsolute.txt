@@ -28,6 +28,5 @@
 /Users/akanimanabe/Projects/Weatherapp/Weatherapp/obj/Debug/Weatherapp.csproj.CoreCompileInputs.cache
 /Users/akanimanabe/Projects/Weatherapp/Weatherapp/obj/Debug/Weatherapp.App.xaml.g.cs
 /Users/akanimanabe/Projects/Weatherapp/Weatherapp/obj/Debug/Weatherapp.WeatherappPage.xaml.g.cs
-/Users/akanimanabe/Projects/Weatherapp/Weatherapp/obj/Debug/Weatherapp.Feature.MainPage.xaml.g.cs
 /Users/akanimanabe/Projects/Weatherapp/Weatherapp/obj/Debug/Weatherapp.dll
 /Users/akanimanabe/Projects/Weatherapp/Weatherapp/obj/Debug/Weatherapp.pdb

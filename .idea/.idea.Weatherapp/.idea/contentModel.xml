@@ -19,31 +19,19 @@
         <e p="Resources" t="Include">
           <e p="AboutResources.txt" t="Include" />
           <e p="drawable" t="Include">
-            <e p="001-drop.png" t="Include" />
-            <e p="002-waves.png" t="Include" />
-            <e p="003-storm.png" t="Include" />
-            <e p="004-lightning.png" t="Include" />
-            <e p="005-sun-1.png" t="Include" />
-            <e p="006-sun.png" t="Include" />
-            <e p="007-rain.png" t="Include" />
-            <e p="008-rainfall.png" t="Include" />
             <e p="icon.png" t="Include" />
+            <e p="lc_launcher.png" t="Include" />
           </e>
           <e p="drawable-hdpi" t="Include">
-            <e p="001-drop.png" t="Include" />
-            <e p="002-waves.png" t="Include" />
-            <e p="003-storm.png" t="Include" />
-            <e p="004-lightning.png" t="Include" />
-            <e p="005-sun-1.png" t="Include" />
-            <e p="006-sun.png" t="Include" />
-            <e p="007-rain.png" t="Include" />
-            <e p="008-rainfall.png" t="Include" />
+            <e p="ic_launcher.png" t="Include" />
             <e p="icon.png" t="Include" />
           </e>
           <e p="drawable-xhdpi" t="Include">
+            <e p="ic_launcher.png" t="Include" />
             <e p="icon.png" t="Include" />
           </e>
           <e p="drawable-xxhdpi" t="Include">
+            <e p="ic_launcher.png" t="Include" />
             <e p="icon.png" t="Include" />
           </e>
           <e p="layout" t="Include">
@@ -63,12 +51,23 @@
         <e p="Assets.xcassets" t="Include">
           <e p="AppIcon.appiconset" t="Include">
             <e p="Contents.json" t="Include" />
+            <e p="Icon-App-29x29@2x.png" t="Include" />
+            <e p="Icon-App-29x29@3x.png" t="Include" />
+            <e p="Icon-App-40x40@2x.png" t="Include" />
+            <e p="Icon-App-60x60@1x.png" t="Include" />
+            <e p="Icon-App-60x60@2x.png" t="Include" />
+            <e p="Icon-App-60x60@3x.png" t="Include" />
+            <e p="ItunesArtwork@2x.png" t="Include" />
           </e>
           <e p="Contents.json" t="Include" />
+          <e p="LaunchImage.launchimage" t="Include">
+            <e p="Contents.json" t="Include" />
+          </e>
         </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="Entitlements.plist" t="Include" />
         <e p="Info.plist" t="Include" />
+        <e p="iTunesArtwork@2x" t="Include" />
         <e p="LaunchScreen.storyboard" t="Include" />
         <e p="Main.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
@@ -94,10 +93,9 @@
         <e p="App.xaml" t="Include" />
         <e p="App.xaml.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
-        <e p="Controls" t="Include" />
-        <e p="Feature" t="Include">
-          <e p="MainPage.xaml" t="Include" />
-          <e p="MainPage.xaml.cs" t="Include" />
+        <e p="Helpers" t="Include">
+          <e p="Permissions.cs" t="Include" />
+          <e p="PropertyChange.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
           <e p="WeatherModel.cs" t="Include" />
@@ -105,7 +103,16 @@
         <e p="obj" t="ExcludeRecursive" />
         <e p="packages.config" t="Include" />
         <e p="Properties" t="Include">
+          <e p="Annotations.cs" t="Include" />
           <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Services" t="Include">
+          <e p="DataService.cs" t="Include" />
+          <e p="LocationService.cs" t="Include" />
+        </e>
+        <e p="ViewModel" t="Include">
+          <e p="BaseViewModel.cs" t="Include" />
+          <e p="WeatherViewModel.cs" t="Include" />
         </e>
         <e p="Weatherapp.csproj" t="IncludeRecursive" />
         <e p="WeatherappPage.xaml" t="Include" />

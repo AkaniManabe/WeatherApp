@@ -8,8 +8,8 @@
   <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
   <uses-feature android:name="android.hardware.location.gps" />
   <uses-feature android:name="android.hardware.location.network" />
-  <application android:label="Weather app" android:name="md59ced4793d914919a959e205204f7bb3b.MainApplication" android:allowBackup="true" android:icon="@drawable/icon" android:debuggable="true">
-    <activity android:configChanges="orientation|screenSize" android:icon="@drawable/icon" android:label="Weatherapp.Droid" android:theme="@style/MyTheme" android:name="md5450128a3973810f22f7d674db0157c4f.MainActivity">
+  <application android:label="Weather app" android:icon="@drawable/lc_launcher" android:name="md59ced4793d914919a959e205204f7bb3b.MainApplication" android:allowBackup="true" android:debuggable="true">
+    <activity android:configChanges="orientation|screenSize" android:icon="@drawable/lc_launcher" android:label="Weatherapp.Droid" android:theme="@style/MyTheme" android:name="md5450128a3973810f22f7d674db0157c4f.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
