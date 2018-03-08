@@ -24,6 +24,7 @@ namespace Weatherapp.ViewModel
         private string _location;
         private string _currentTime;
         private bool _isBusy = false;
+        private bool _isVisible = false;
         private List<Weather> _weatherData;
         
         public double TempMin
@@ -117,13 +118,22 @@ namespace Weatherapp.ViewModel
             }
         }
 
+        public bool IsVisible
+        {
+            get => _isVisible;
+            set
+            {
+                _isVisible = value;
+                OnPropertyChanged();
+            }
+        }
+
         public WeatherViewModel()
         {
             _permissions = new Permissions();
-            GetWeather();
         }
 
-        private async Task GetWeather()
+        public async Task GetWeather()
         {
             PermissionStatus checkPermissions = await _permissions.RequestPermission();
             if (checkPermissions == PermissionStatus.Unknown)
@@ -131,13 +141,14 @@ namespace Weatherapp.ViewModel
                 return;
             }
 
+            if (IsBusy && IsVisible) return;
             IsBusy = true;
             try
             {
                 CurrentTime = GetCurrentDate();
                 var response = await DataService.GetWeatherData();
 
-                if (response != null)
+               if (response != null)
                 {
                     string countryname = GetCountryFromCountryCode(response.Sys.Country);
                     TempMin = response.Main.TempMin;
@@ -156,6 +167,7 @@ namespace Weatherapp.ViewModel
             finally
             {
                 IsBusy = false;
+                IsVisible = true;
             }
         }
 

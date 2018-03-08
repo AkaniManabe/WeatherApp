@@ -26,6 +26,3 @@ using Android.App;
 
 //[assembly: AssemblyDelaySign(false)]
 //[assembly: AssemblyKeyFile("")]
-[assembly: UsesPermission(Manifest.Permission.AccessFineLocation)]
-[assembly: UsesPermission(Manifest.Permission.AccessCoarseLocation)]
-[assembly: UsesPermission(Manifest.Permission.Internet)]

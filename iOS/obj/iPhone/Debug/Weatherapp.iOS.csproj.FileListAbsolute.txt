@@ -49,10 +49,6 @@
 /Users/akanimanabe/Projects/Weatherapp/iOS/bin/iPhone/Debug/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/akanimanabe/Projects/Weatherapp/iOS/bin/iPhone/Debug/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/akanimanabe/Projects/Weatherapp/iOS/bin/iPhone/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/akanimanabe/Projects/Weatherapp/iOS/obj/iPhone/Debug/ibtool/_BundleResourceWithLogicalName.items
-/Users/akanimanabe/Projects/Weatherapp/iOS/obj/iPhone/Debug/actool/_PartialAppManifest.items
-/Users/akanimanabe/Projects/Weatherapp/iOS/obj/iPhone/Debug/actool/_BundleResourceWithLogicalName.items
-/Users/akanimanabe/Projects/Weatherapp/iOS/obj/iPhone/Debug/optimized/
 /Users/akanimanabe/Projects/Weatherapp/iOS/obj/iPhone/Debug/Weatherapp.iOS.csprojResolveAssemblyReference.cache
 /Users/akanimanabe/Projects/Weatherapp/iOS/obj/iPhone/Debug/Weatherapp.iOS.csproj.CoreCompileInputs.cache
 /Users/akanimanabe/Projects/Weatherapp/iOS/obj/iPhone/Debug/Weatherapp.iOS.exe
@@ -67,3 +63,7 @@
 /Users/akanimanabe/Projects/Weatherapp/iOS/bin/iPhone/Debug/Plugin.Permissions.xml
 /Users/akanimanabe/Projects/Weatherapp/iOS/bin/iPhone/Debug/Plugin.Permissions.Abstractions.pdb
 /Users/akanimanabe/Projects/Weatherapp/iOS/bin/iPhone/Debug/Plugin.Permissions.Abstractions.xml
+/Users/akanimanabe/Projects/Weatherapp/iOS/obj/iPhone/Debug/device-builds/iphone8.1-11.2.2/ibtool/_BundleResourceWithLogicalName.items
+/Users/akanimanabe/Projects/Weatherapp/iOS/obj/iPhone/Debug/device-builds/iphone8.1-11.2.2/actool/_PartialAppManifest.items
+/Users/akanimanabe/Projects/Weatherapp/iOS/obj/iPhone/Debug/device-builds/iphone8.1-11.2.2/actool/_BundleResourceWithLogicalName.items
+/Users/akanimanabe/Projects/Weatherapp/iOS/obj/iPhone/Debug/device-builds/iphone8.1-11.2.2/optimized/

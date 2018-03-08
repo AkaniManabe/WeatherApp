@@ -1,30 +1,37 @@
 ﻿<Properties StartupConfiguration="{139A884F-7DE5-4B05-A8AC-4CA16FF834F3}|Default">
-  <MonoDevelop.Ide.ItemProperties.Weatherapp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.45B49F13-8B12-4EAD-BE2D-385A761C7DDE" automaticSigning="False">
+  <MonoDevelop.Ide.ItemProperties.Weatherapp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.13b7acae89ebaf293553ee7a4f93d84e03e4f006" automaticSigning="False">
     <MonoDevelop.MacDev.AppleDevelopmentTeam />
   </MonoDevelop.Ide.ItemProperties.Weatherapp.iOS>
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/Info.plist">
+    <Files>
+      <File FileName="iOS/Info.plist" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Weatherapp" expanded="True">
             <Node name="Weatherapp" expanded="True">
+              <Node name="Packages" expanded="True">
+                <Node name="Xamarin.Forms.Maps" selected="True" />
+              </Node>
               <Node name="ViewModel" expanded="True" />
               <Node name="App.xaml" expanded="True" />
             </Node>
             <Node name="Weatherapp.Droid" expanded="True">
+              <Node name="Packages" expanded="True" />
               <Node name="Resources" expanded="True">
                 <Node name="drawable" expanded="True" />
               </Node>
             </Node>
             <Node name="Weatherapp.iOS" expanded="True">
-              <Node name="LaunchScreen.storyboard" selected="True" />
+              <Node name="Packages" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

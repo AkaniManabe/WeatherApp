@@ -2,6 +2,7 @@
 using System.Diagnostics;
 using System.Threading.Tasks;
 using Plugin.Geolocator;
+using Plugin.Geolocator.Abstractions;
 using Plugin.Permissions;
 using Plugin.Permissions.Abstractions;
 using Weatherapp.Helpers;
@@ -10,38 +11,39 @@ namespace Weatherapp.Services
 {
     public class LocationService
     {
-        public static async Task<double> GetLatitude()
+       public static async Task<Position> GetCurrentPosition()
         {
+            Position position = null;
+
             try
-            {    
-                var results = await CrossGeolocator.Current.GetPositionAsync(timeout: TimeSpan.FromSeconds(60));
-                results.Accuracy = 50;
-                    
-                return results.Latitude;
+            {
+                var locator = CrossGeolocator.Current;
+                locator.DesiredAccuracy = 100;
+
+                position = await locator.GetLastKnownLocationAsync();
+
+                if (position != null)
+                {
+                    return position;
+                }
+
+                if (!locator.IsGeolocationAvailable || !locator.IsGeolocationEnabled)
+                {
+                    return null;
+                }
+
+                position = await locator.GetPositionAsync(TimeSpan.FromSeconds(20), null, true);
             }
             catch (Exception e)
             {
-                Debug.WriteLine("Error: " + e.Message);
+                Debug.WriteLine("Unable to get location: " + e);
+                throw;
             }
+            
+            if (position == null)
+                return null;
 
-            return 0.0;
-        }
-        
-        public static async Task<double> GetLongitude()
-        {
-            try
-            {
-                var results = await CrossGeolocator.Current.GetPositionAsync(timeout: TimeSpan.FromSeconds(60));
-                results.Accuracy = 50;
-
-                return results.Longitude;
-            }
-            catch (Exception e)
-            {
-                Debug.WriteLine("Error: " + e.Message);
-            }
-
-            return 0.0;
+            return position;
         }
     }
 }

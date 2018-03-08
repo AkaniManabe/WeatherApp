@@ -19,7 +19,7 @@ namespace Weatherapp.Services
 
             string responsejson = await client.GetStringAsync(
                 "http://api.openweathermap.org/data/2.5/weather?lat=" + 
-                                await GetLatitude() + "&lon=" + await GetLongitude() + 
+                                 GetCurrentPosition().Result.Latitude + "&lon=" + GetCurrentPosition().Result.Longitude + 
                                     "&units=metric&appid=59b84830dac29d6000df6ddbc0dce50c");
             try
             {

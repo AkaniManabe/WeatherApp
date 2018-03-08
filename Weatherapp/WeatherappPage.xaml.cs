@@ -12,5 +12,11 @@ namespace Weatherapp
             InitializeComponent();
             BindingContext = _viewModel = new WeatherViewModel();
         }
+
+        protected override async void OnAppearing()
+        {
+            base.OnAppearing();
+            await _viewModel.GetWeather();
+        }
     }
 }
